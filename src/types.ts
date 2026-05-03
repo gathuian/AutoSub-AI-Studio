@@ -15,10 +15,11 @@ export interface Caption {
 export interface Project {
   id: string;
   name: string;
-  type: 'subtitle' | 'lyric' | 'dj';
+  type: 'subtitle' | 'lyric' | 'dj' | 'karaoke';
   captions: Caption[];
   style: CaptionStyle;
   mediaUrl?: string;
+  createdAt?: number;
 }
 
 export interface CaptionStyle {
