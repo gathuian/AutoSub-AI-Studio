@@ -1,0 +1,7 @@
+{
+  "name": "AutoSub AI Studio",
+  "description": "AI-powered real-time subtitles, caption styling, and lyric file generator for creators, DJs, and editors.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
